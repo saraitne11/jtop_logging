@@ -1,0 +1,27 @@
+from jtop import jtop
+
+
+f = open('jtop_attribs.txt', 'w')
+with jtop() as jetson:
+    f.write(f'jetson.stats:  {jetson.stats}\n')
+    f.write(f'jetson.power: {jetson.power}\n')
+    f.write(f'jetson.cpu: {jetson.cpu}\n')
+    f.write(f'jetson.gpu: {jetson.gpu}\n')
+    f.write(f'jetson.ram: {jetson.ram}\n')
+    f.write(f'jetson.iram: {jetson.iram}\n')
+    f.write(f'jetson.swap: {jetson.swap}\n')
+    f.write(f'jetson.disk: {jetson.disk}\n')
+    f.write(f'jetson.fan: {jetson.fan}\n')
+    f.write(f'jetson.nvpmodel: {jetson.nvpmodel}\n')
+    f.write(f'jetson.temperature: {jetson.temperature}\n')
+    f.write(f'jetson.cluster: {jetson.cluster}\n')
+    f.write(f'jetson.board: {jetson.board}\n')
+    f.write(f'jetson.engine: {jetson.engine}\n')
+    f.write(f'jetson.emc: {jetson.emc}\n')
+    f.write(f'jetson.jetson_clocks: {jetson.jetson_clocks}\n')
+    f.write(f'jetson.interval: {jetson.interval}\n')
+    f.write(f'jetson.interval_user: {jetson.interval_user}\n')
+    f.write(f'jetson.local_interfaces: {jetson.local_interfaces}\n')
+    f.write(f'jetson.mts: {jetson.mts}\n')
+    f.write(f'jetson.uptime: {jetson.uptime}\n')
+f.close()
