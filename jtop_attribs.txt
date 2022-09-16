@@ -1,21 +1,21 @@
-jetson.stats:  {'time': datetime.datetime(2022, 7, 14, 17, 30, 49, 787503), 'uptime': datetime.timedelta(0, 194, 90000), 'jetson_clocks': 'ON', 'nvp model': 'MAXN', 'CPU1': 75, 'CPU2': 90, 'CPU3': 76, 'CPU4': 96, 'GPU': 0, 'RAM': 2591728, 'EMC': 2591728, 'IRAM': 2591728, 'SWAP': 0, 'APE': 25, 'NVENC': 'OFF', 'NVDEC': 'OFF', 'NVJPG': 'OFF', 'fan': 56.470588235294116, 'Temp AO': 37.5, 'Temp CPU': 31.0, 'Temp GPU': 28.5, 'Temp PLL': 28.0, 'Temp iwlwifi': 31.0, 'Temp thermal': 29.5, 'power cur': 5305, 'power avg': 4124}
-jetson.power: ({'cur': 5305, 'avg': 4124}, {'5V GPU': {'cur': 241, 'avg': 157}, '5V CPU': {'cur': 2170, 'avg': 1312}})
-jetson.cpu: {'CPU1': {'val': 75, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU2': {'val': 90, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU3': {'val': 76, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU4': {'val': 96, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}}
+jetson.stats:  {'time': datetime.datetime(2022, 9, 16, 11, 35, 56, 81618), 'uptime': datetime.timedelta(0, 1004, 980000), 'jetson_clocks': 'ON', 'nvp model': 'MAXN', 'CPU1': 91, 'CPU2': 96, 'CPU3': 100, 'CPU4': 100, 'GPU': 0, 'RAM': 2818664, 'EMC': 2818664, 'IRAM': 2818664, 'SWAP': 3, 'APE': 25, 'NVENC': 'OFF', 'NVDEC': 'OFF', 'NVJPG': 'OFF', 'fan': 58.03921568627451, 'Temp AO': 37.5, 'Temp CPU': 30.0, 'Temp GPU': 28.0, 'Temp PLL': 27.0, 'Temp iwlwifi': 30.0, 'Temp thermal': 28.75, 'power cur': 4515, 'power avg': 3432}
+jetson.power: ({'cur': 4515, 'avg': 3432}, {'5V GPU': {'cur': 161, 'avg': 177}, '5V CPU': {'cur': 2214, 'avg': 1310}})
+jetson.cpu: {'CPU1': {'val': 91, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU2': {'val': 96, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU3': {'val': 100, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}, 'CPU4': {'val': 100, 'frq': 1479000, 'governor': 'schedutil', 'min_freq': 1479000, 'max_freq': 1479000, 'IdleStates': {'WFI': 0, 'c7': 0}, 'model': 'ARMv8 Processor rev 1 (v8l)'}}
 jetson.gpu: {'val': 0, 'frq': 921000, 'min_freq': 921600000, 'max_freq': 921600000}
-jetson.ram: {'use': 2591728, 'tot': 4051048, 'unit': 'k', 'lfb': {'nblock': 100, 'size': 4, 'unit': 'M'}, 'shared': 739916}
+jetson.ram: {'use': 2818664, 'tot': 4051048, 'unit': 'k', 'lfb': {'nblock': 107, 'size': 4, 'unit': 'M'}, 'shared': 347660}
 jetson.iram: {'use': 0, 'tot': 252, 'unit': 'k', 'lfb': {'size': 252, 'unit': 'k'}}
-jetson.swap: {'use': 0, 'tot': 1978, 'unit': 'M', 'cached': {'size': 0, 'unit': 'M'}}
-jetson.disk: {'total': 117.23927688598633, 'used': 16.142044067382812, 'available': 101.09723281860352, 'available_no_root': 96.18472290039062}
-jetson.fan: {'auto': True, 'speed': 56.470588235294116, 'measure': 56.470588235294116, 'rpm': 0, 'mode': 'default'}
+jetson.swap: {'use': 3, 'tot': 1978, 'unit': 'M', 'cached': {'size': 0, 'unit': 'M'}}
+jetson.disk: {'total': 117.23927688598633, 'used': 34.13463592529297, 'available': 83.10464096069336, 'available_no_root': 78.19213104248047}
+jetson.fan: {'auto': True, 'speed': 58.03921568627451, 'measure': 58.03921568627451, 'rpm': 0, 'mode': 'default'}
 jetson.nvpmodel: MAXN
-jetson.temperature: {'PLL': 28.0, 'CPU': 31.0, 'iwlwifi': 31.0, 'GPU': 28.5, 'AO': 37.5, 'thermal': 29.5}
+jetson.temperature: {'PLL': 27.0, 'CPU': 30.0, 'iwlwifi': 30.0, 'GPU': 28.0, 'AO': 37.5, 'thermal': 28.75}
 jetson.cluster: 
 jetson.board: {'info': {'machine': 'NVIDIA Jetson Nano (Developer Kit Version)', 'jetpack': '4.6.2', 'L4T': '32.7.2'}, 'hardware': {'TYPE': 'Nano (Developer Kit Version)', 'CODENAME': 'porg', 'SOC': 'tegra210', 'CHIP_ID': '33', 'BOARDIDS': '3448', 'MODULE': 'P3448-0000', 'BOARD': 'P3449-0000', 'CUDA_ARCH_BIN': '5.3', 'SERIAL_NUMBER': '1423119070189'}, 'libraries': {'CUDA': '10.2.300', 'cuDNN': '8.2.1.32', 'TensorRT': '8.2.1.8', 'VisionWorks': '1.6.0.501', 'OpenCV': '4.1.1', 'OpenCV-Cuda': 'NO', 'VPI': 'ii libnvvpi1 1.2.3 arm64 NVIDIA Vision Programming Interface library', 'Vulkan': '1.2.70'}}
 jetson.engine: {'ape': {'val': 25}, 'nvenc': {}, 'nvdec': {}, 'msenc': {}, 'nvjpg': {}}
-jetson.emc: {'val': 17, 'frq': 1600000, 'min_freq': 204000000, 'max_freq': 1600000000, 'FreqOverride': 1}
+jetson.emc: {'val': 11, 'frq': 1600000, 'min_freq': 204000000, 'max_freq': 1600000000, 'FreqOverride': 1}
 jetson.jetson_clocks: True
 jetson.interval: 0.5
 jetson.interval_user: 0.5
-jetson.local_interfaces: {'hostname': 'jangwon-jetson-nano', 'interfaces': {'wlan0': '192.168.35.81', 'docker0': '172.17.0.1'}}
+jetson.local_interfaces: {'hostname': 'jetson-nano', 'interfaces': {'wlan0': '10.250.72.83', 'docker0': '172.17.0.1'}}
 jetson.mts: {}
-jetson.uptime: 0:03:16.860000
+jetson.uptime: 0:16:45.730000
